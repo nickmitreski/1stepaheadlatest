@@ -1,30 +1,74 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <MainNavbar />
+  <section id="home"><MainBanner /></section>
+  <section id="about"><AboutUs /></section>
+  <section id="statistics"><FunFacts /></section>
+  <section id="programs"><PopularCourses /></section>
+  <section id="testimonials"><TestimonialContent /></section>
+  <section id="contact"><ContactUs /></section>
+  <MainFooter />
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script lang="ts">
+import { defineComponent, ref } from "vue";
+import MainNavbar from "./components/Layouts/MainNavbar.vue";
+import MainBanner from "./components/HomeOne/MainBanner.vue";
+import AboutUs from "./components/HomeOne/AboutUs.vue";
+import PopularCourses from "./components/HomeOne/PopularCourses.vue";
+import TestimonialContent from "./components/HomeOne/TestimonialContent.vue";
+import FunFacts from "./components/HomeOne/FunFacts.vue";
+import ContactUs from "./components/Contact/ContactUs.vue";
+import MainFooter from "./components/Layouts/MainFooter.vue";
+
+export default defineComponent({
+  name: "App",
+  components: {
+    MainNavbar,
+    MainBanner,
+    AboutUs,
+    PopularCourses,
+    TestimonialContent,
+    FunFacts,
+    ContactUs,
+    MainFooter,
+  },
+  setup() {
+    const isLoading = ref(false); // PreLoader removed for simplicity
+    return {
+      isLoading,
+    };
+  },
+});
+</script>
+
+<style scoped>
+.statistics-section {
+  padding: 100px 0;
+  background-color: #f8f9fa;
 }
 
-nav {
-  padding: 30px;
+.statistics-content h2 {
+  color: var(--mainColor);
+  margin-bottom: 40px;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.stat-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 32px 16px;
+  margin: 0 auto;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+.stat-card h3 {
+  color: var(--mainColor);
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.stat-card p {
+  color: var(--paragraphColor);
+  font-size: 1.1rem;
+  margin-bottom: 0;
 }
 </style>
