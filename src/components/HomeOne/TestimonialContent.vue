@@ -9,7 +9,11 @@
             </div>
             <div class="content">
               <p>
+<<<<<<< HEAD
                 "This was the first time I actually understood how money works. It made me feel like I could handle the future."
+=======
+                "1 Step Ahead helped me understand money in a way that makes sense for my life. I feel more confident about my future."
+>>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
               </p>
               <ul class="ratings">
                 <li><i class="bx bxs-star"></i></li>
@@ -18,8 +22,13 @@
                 <li><i class="bx bxs-star"></i></li>
                 <li><i class="bx bxs-star"></i></li>
               </ul>
+<<<<<<< HEAD
               <h3>Emily T</h3>
               <span>Year 12 Student</span>
+=======
+              <h3>Emily T.</h3>
+              <span>High School Student</span>
+>>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
             </div>
           </div>
           <div class="edu-review-box">
@@ -46,7 +55,11 @@
             </div>
             <div class="content">
               <p>
+<<<<<<< HEAD
                 "I loved how it wasn't boring finance stuff, it made sense and helped me see how I think about money."
+=======
+                "I learned how to set goals and manage my money without stress. The team really cares about young people."
+>>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
               </p>
               <ul class="ratings">
                 <li><i class="bx bxs-star"></i></li>
@@ -55,8 +68,13 @@
                 <li><i class="bx bxs-star"></i></li>
                 <li><i class="bx bxs-star"></i></li>
               </ul>
+<<<<<<< HEAD
               <h3>Jordan K</h3>
               <span>Youth program participant</span>
+=======
+              <h3>Jordan K.</h3>
+              <span>Workshop Participant</span>
+>>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
             </div>
           </div>
         </div>
