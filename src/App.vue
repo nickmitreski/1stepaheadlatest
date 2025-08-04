@@ -2,18 +2,10 @@
   <MainNavbar />
   <section id="home"><MainBanner /></section>
   <section id="about"><AboutUs /></section>
-<<<<<<< HEAD
   <section id="team"><OurTeam /></section>
   <section id="programs"><PopularCourses /></section>
   <section id="testimonials"><TestimonialContent /></section>
   <section id="contact"><ContactUs /></section>
-=======
-  <section id="statistics"><FunFacts /></section>
-  <section id="programs"><PopularCourses /></section>
-  <section id="testimonials"><TestimonialContent /></section>
-  <section id="contact"><ContactUs /></section>
-  <MainFooter />
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
 </template>
 
 <script lang="ts">
@@ -21,18 +13,10 @@ import { defineComponent, ref } from "vue";
 import MainNavbar from "./components/Layouts/MainNavbar.vue";
 import MainBanner from "./components/HomeOne/MainBanner.vue";
 import AboutUs from "./components/HomeOne/AboutUs.vue";
-<<<<<<< HEAD
 import OurTeam from "./components/HomeOne/OurTeam.vue";
 import PopularCourses from "./components/HomeOne/PopularCourses.vue";
 import TestimonialContent from "./components/HomeOne/TestimonialContent.vue";
 import ContactUs from "./components/Contact/ContactUs.vue";
-=======
-import PopularCourses from "./components/HomeOne/PopularCourses.vue";
-import TestimonialContent from "./components/HomeOne/TestimonialContent.vue";
-import FunFacts from "./components/HomeOne/FunFacts.vue";
-import ContactUs from "./components/Contact/ContactUs.vue";
-import MainFooter from "./components/Layouts/MainFooter.vue";
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
 
 export default defineComponent({
   name: "App",
@@ -40,18 +24,10 @@ export default defineComponent({
     MainNavbar,
     MainBanner,
     AboutUs,
-<<<<<<< HEAD
     OurTeam,
     PopularCourses,
     TestimonialContent,
     ContactUs,
-=======
-    PopularCourses,
-    TestimonialContent,
-    FunFacts,
-    ContactUs,
-    MainFooter,
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
   },
   setup() {
     const isLoading = ref(false); // PreLoader removed for simplicity

@@ -5,17 +5,10 @@
         <div class="col-lg-6 col-md-12">
           <div class="edu-banner-content">
             <h1 class="hero-title">
-<<<<<<< HEAD
               <span class="shape02">Financial</span> education with purpose
             </h1>
             <p class="hero-subtitle">
               empowering 16–24 year olds to take control of their money, habits, and future.
-=======
-              <span class="shape02">Empowering</span> Teens & Young Adults
-            </h1>
-            <p class="hero-subtitle">
-              Helping the next generation take control of their financial future and mental health.
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
             </p>
           </div>
         </div>
@@ -40,10 +33,7 @@ export default defineComponent({
 <style scoped>
 .hero-title {
   margin-bottom: 12px;
-<<<<<<< HEAD
   line-height: 1.1;
-=======
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
 }
 .hero-subtitle {
   margin-top: 0;

@@ -33,11 +33,7 @@
             <ul class="navbar-nav ms-auto w-100 justify-content-end">
               <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
               <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-<<<<<<< HEAD
               <li class="nav-item"><a href="#team" class="nav-link">Our Team</a></li>
-=======
-              <li class="nav-item"><a href="#statistics" class="nav-link">Statistics</a></li>
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
               <li class="nav-item"><a href="#programs" class="nav-link">Program and Modules</a></li>
               <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>

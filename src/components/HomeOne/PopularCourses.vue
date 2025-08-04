@@ -90,7 +90,6 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       
       <!-- New content below the cards -->
       <div class="row mt-5">
@@ -203,8 +202,6 @@
           </div>
         </div>
       </div>
-=======
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
     </div>
   </div>
 </template>
@@ -219,7 +216,6 @@ export default {
 .extra-padding-top {
   padding-top: 48px;
 }
-<<<<<<< HEAD
 
 .programs-info {
   margin-top: 60px;
@@ -267,6 +263,4 @@ export default {
   font-size: 18px;
   color: var(--paragraphColor);
 }
-=======
->>>>>>> 8331dc09ee9517656f99b4591b113fb2cf82868c
 </style>
